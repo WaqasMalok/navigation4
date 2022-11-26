@@ -60,7 +60,6 @@ body {
   .navigation .nav-item {
     padding: 10px 20px;
     border-top: 1px solid rgb(212, 220, 232);
-    border-bottom: 1px solid rgb(212, 220, 232);
   }
   .navigation .nav-link {
     font-size: 19px;
@@ -75,9 +74,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-  }
-  .navigation .close {
-    display: none;
   }
 }
 .height1 {
