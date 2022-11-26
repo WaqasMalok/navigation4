@@ -1,0 +1,58 @@
+body {
+    background-color: cadetblue;
+}
+
+.navigation {
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 999;
+
+    .navbar {
+        max-width: 1920px;
+        width: 100%;
+        padding: 12px 70px;
+
+        // img {
+        //     padding-bottom: 4px;
+        // }
+    }
+
+    &-brand {
+        width: 90px;
+        height: 24px;
+    }
+    .btn
+    {&-primary{
+        background-color:  rgb(16, 130, 234);
+        padding-inline:30px;
+        box-shadow: rgb(0 0 0 / 32%) 0px 5px 15px 0px;
+        &:hover{
+           background-color: rgb(54, 149, 238);
+        }
+    }
+    &-login{
+        font-size: 14px;
+        color: rgba(31, 31, 31, 0.842);
+        &:hover{
+            color: rgb(16, 130, 234);
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.height1 {
+    background: #000;
+
+}

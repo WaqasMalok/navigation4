@@ -1,0 +1,38 @@
+body {
+  background-color: cadetblue;
+}
+
+.navigation {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 999;
+}
+.navigation .navbar {
+  max-width: 1920px;
+  width: 100%;
+  padding: 12px 70px;
+}
+.navigation-brand {
+  width: 90px;
+  height: 24px;
+}
+.navigation .btn-primary {
+  background-color: rgb(16, 130, 234);
+  padding-inline: 30px;
+  box-shadow: rgba(0, 0, 0, 0.32) 0px 5px 15px 0px;
+}
+.navigation .btn-primary:hover {
+  background-color: rgb(54, 149, 238);
+}
+.navigation .btn-login {
+  font-size: 14px;
+  color: rgba(31, 31, 31, 0.842);
+}
+.navigation .btn-login:hover {
+  color: rgb(16, 130, 234);
+}
+
+.height1 {
+  background: #000;
+}/*# sourceMappingURL=nav.css.map */
