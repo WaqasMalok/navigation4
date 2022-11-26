@@ -13,6 +13,12 @@ body {
   width: 100%;
   padding: 12px 70px;
 }
+.navigation .navbar-toggler {
+  border: 0px;
+}
+.navigation .navbar-toggler:focus {
+  box-shadow: none;
+}
 .navigation-brand {
   width: 90px;
   height: 24px;
@@ -33,6 +39,47 @@ body {
   color: rgb(16, 130, 234);
 }
 
+@media (min-width: 992px) {
+  .phone-icon {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .navigation .container-fluid {
+    padding: 15px 0px;
+  }
+  .navigation .phone-icon {
+    padding-left: 20px;
+  }
+  .navigation .navbar {
+    padding: 0px;
+  }
+  .navigation .navbar-toggler {
+    padding-right: 20px;
+  }
+  .navigation .nav-item {
+    padding: 10px 20px;
+    border-top: 1px solid rgb(212, 220, 232);
+    border-bottom: 1px solid rgb(212, 220, 232);
+  }
+  .navigation .nav-link {
+    font-size: 19px;
+  }
+  .navigation .btn-login {
+    display: none;
+  }
+  .navigation .btn-primary {
+    padding: 15px;
+  }
+  .navigation .RightBtn {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .navigation .close {
+    display: none;
+  }
+}
 .height1 {
   background: #000;
 }/*# sourceMappingURL=nav.css.map */
